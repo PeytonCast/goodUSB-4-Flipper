@@ -1,0 +1,49 @@
+REM initialize system
+DELAY 2000
+
+REM open windows run
+GUI r
+DELAY 1000
+
+REM open command prompt
+STRING cmd
+ENTER
+DELAY 1000
+REM if this does'nt work check file path to Temp
+STRING del /s C:\Users\compo\AppData\Local\Temp\*
+ENTER
+DELAY 1000
+
+STRING y
+ENTER
+DELAY 1000
+STRING y
+ENTER
+DELAY 1000
+STRING y
+ENTER
+DELAY 1000
+STRING y
+ENTER
+DELAY 1000
+STRING y
+ENTER
+DELAY 1000
+STRING y
+ENTER
+DELAY 1000
+STRING y
+ENTER
+DELAY 1000
+STRING y
+ENTER
+DELAY 7000
+
+REM open windows run
+GUI r
+DELAY 1000
+REM open Disk clean up
+STRING cleanmgr
+ENTER
+
+
